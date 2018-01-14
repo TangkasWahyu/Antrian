@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="NAMA"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:hint="nama"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingLeft="10dp"
+        android:id="@+id/nama"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="TGL LAHIR"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="12dp"
+        />
+    <EditText
+        android:id="@+id/tgl"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:hint="tgl lahir"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="ALAMAT"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="12dp"
+        />
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:hint="alamat"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="DAFTAR"
+        android:layout_gravity="end"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/daftar"
+        />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt1">
+        <TextView
+            android:id="@+id/viewname"
+            android:layout_width="275dp"
+            android:layout_height="20dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:id="@+id/viewnomor"
+            android:layout_width="125dp"
+            android:layout_height="20dp"
+            android:inputType="textPersonName"
+            android:text="pass"
+            android:layout_toRightOf="@id/viewname"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
